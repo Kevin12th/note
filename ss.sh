@@ -30,7 +30,7 @@ cat>/etc/shadowsocks.json<<EOF
     "local_port":1080,
     "password":"$pwd",
     "timeout":300,
-    "method":"rc4-md5",
+    "method":"aes-256-cfb",
     "fast_open": false
 }
 EOF
